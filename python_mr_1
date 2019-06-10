@@ -3,3 +3,34 @@
 Python을 활용한 머신러능 입문(1)
 
 
+- Machine Learning의 종류
+(1) 지도학습
+사람이 답을 알고 기계에게 답을 유도
+
+필요한 재료: Training Data / Label (독립변수/종속변수/Feature/Cloumn...)
+=======================================> 머신러닝 ==> 모델 생성
+
+새로운 데이터와 모델을 기계가 Predicition
+
+(2) 비지도학습
+사람도 답을 모름
+
+필요한 재료: Training Data 
+=======================================> 머신러닝 ==> 모델 생성
+
+새로운 데이터와 모델을 기계가 Clustering, 차원감소
+
+(3) 강화학습
+요것이 중요함. 이번 수업에서는 다루지 않는 내용
+
+Linear & Logisic Regression : 연속값 예측 (ex. 매출,환율 등)
+KNN : YES OR NO, 1 OR 0, POSITIVIE OR NEGATIVE, TRUE OR FALSE
+
+
+
+- Decision Tree 모델 : White Box => 정확하진 않음. 하지만 설명이 가능.
+일반적으로 단독모델로 사용하지 않는다.
+
+일반적으로 ML은 Black Box임. 왜냐면 결정할 때 기계가 결정하기 때문....
+
+
